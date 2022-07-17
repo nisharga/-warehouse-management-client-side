@@ -1,0 +1,128 @@
+.signupsection{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background: #60a3bc;
+            padding: 100px 0px;
+		}
+
+.signupsection i{
+    font-size: 25px;
+}
+img.brand_logo_img {
+    width: 70%;
+    margin-top: 20px;
+} 
+.user_card {
+			height: 400px;
+			width: 350px;
+			margin-top: auto;
+			margin-bottom: auto;
+			background: #f39c12;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+
+		}
+		.brand_logo_container {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: #60a3bc;
+			padding: 10px;
+			text-align: center;
+		}
+		.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border: 2px solid white;
+		}
+		.form_container {
+			margin-top: 100px;
+		}
+		.login_btn {
+			width: 100%;
+			background: #c0392b;
+			color: white;
+		}
+		.login_btn:focus {
+			box-shadow: none;
+			outline: 0px;
+		}
+		.login_container {
+			padding: 0 2rem;
+		}
+		.input-group-text {
+			background: #c0392b;
+			color: white;
+			border: 0;
+			border-radius: 0.25rem 0 0 0.25rem;
+		}
+		.input_user,
+		.input_pass:focus {
+			box-shadow: none;
+			outline: 0px;
+		}
+		.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+			background-color: #c0392b;
+		}
+		/* ======================================
+		=================================
+		=================================
+		Other othentication  
+		======================================
+		=================================
+		=================================*/
+		.or-container {
+			align-items: center;
+			color: #ccc;
+			display: flex;
+			margin: 25px 0;
+		}
+		.line-separator {
+			background-color: #ccc;
+			flex-grow: 5;
+			height: 1px;
+		}
+		.or-label {
+			flex-grow: 1;
+			margin: 0 15px;
+			text-align: center;
+		}
+		.btn-google {
+			color: #545454;
+		background-color: #ffffff;
+		box-shadow: 0 1px 2px 1px #ddd;
+	}
+	.btn {
+		border-radius: 2px;
+		text-transform: capitalize;
+		font-size: 15px;
+		padding: 10px 19px;
+		cursor: pointer
+	}
+	.login-block {
+		margin: 30px auto;
+		min-height: 93.6vh
+	}
+	
+	.login-block .auth-box {
+		margin: 20px auto 0;
+		max-width: 450px
+	}
+	.other-authentication {
+		width: 40%;
+		margin: 0 auto;
+	}
+	.other-authentication img {
+		margin-right: 10px;
+	}

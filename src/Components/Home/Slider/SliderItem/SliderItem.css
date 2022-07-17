@@ -1,0 +1,62 @@
+/********************************/
+/*            Overlay           */
+/********************************/ 
+.carousel-item { 
+    height: 100vh;
+}
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.7);
+    height: 100vh;
+  }
+
+  .carousel-caption.d-md-block {
+    z-index: 3;
+}
+  /********************************/
+/*            Overlay           */
+/********************************/ 
+
+/* .container-fluid {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    background: red;
+    color: #fff;
+} */
+
+.sliderimg{
+    width: auto;
+ height: 100vh;
+ max-height: 120vh;
+ margin: auto; 
+ display: block;
+
+}
+
+.carousel-indicators{
+    display: none;
+  }
+  
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+.cardcontainer img {
+    animation: zoominoutsinglefeatured 8s infinite ;
+}

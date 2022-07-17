@@ -1,0 +1,10 @@
+.logo img {
+    width: 20px;
+}
+button.logout {
+    margin-top: 7px;
+    border: none;
+}
+button.logout i{
+    margin-left: 2px;
+}

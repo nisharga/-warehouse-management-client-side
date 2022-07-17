@@ -1,0 +1,38 @@
+.quantity{
+  margin-right: 10px;
+}
+.productPage {
+	font-family: 'open sans';
+	overflow-x: hidden;
+	background: #e2eaef;
+	padding-bottom: 60px;
+}
+.card {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, rgba(226,234,239,1) 0%, rgba(249,249,249,1) 35%, rgba(226,234,239,1) 100%);
+  padding: 3em;
+  line-height: 1.5em;
+  box-shadow: 0 0 10px;
+}
+@media screen and (min-width: 997px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
+    .preview img {
+      width: 98%;
+      margin-right: 1%;
+      margin-bottom: 5%;
+    }
+    .product-title, .price, .sizes, .colors {
+      text-transform: UPPERCASE;
+      font-weight: bold; }
+      .product-title, .rating, .product-description, .price, .vote, .sizes {
+        margin-bottom: 15px; }
+      
+      .product-title {
+        margin-top: 0; }   
+
+        
